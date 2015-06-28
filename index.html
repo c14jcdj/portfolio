@@ -8,23 +8,15 @@
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-	<!-- <div id="background">
-	</div>
-
-	<div id="middleground">
-	</div>
-
-	<div id="foreground">
-	</div> -->
-	<!-- <div class="textbox">I'm a text box.</div> -->
+	
 
 	<div class="parallaxbox" id="pb0" >
-		<div class="chewy1" style="overflow:hidden;padding-left: 20px;">
-			<h1 id="chewy" style="  float:left; ">Chermaine Zimmerman</h1>
+		<div class="nav" >
+			<h1 >Chermaine Zimmerman</h1>
 			<h2 id="navlist" >
-				<div id='one' >About Me</div>
-				<div id='two'>Projects</div>
-				<div id='three'>Contact Me</div>
+				<div id='one' ><a href="#pb1">About Me</a></div>
+				<div id='two'><a href="#pb2">Projects</a></div>
+				<div id='three'><a href="#pb3">Contact Me</a></div>
 			</h2>
 		</div>
 		
@@ -34,12 +26,84 @@
 	<div class="parallaxbox" id="pb1" >
 	</div>
 
+
+	<div class="parallaxbox" id="pb3" >
+		<div id="background">
+		</div>
+
+		<div id="middleground">
+		</div>
+
+		<div id="foreground">
+			<table>
+			  <thead>
+			    <tr>
+			      <th colspan="2">
+			        Projects
+			        </th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><a href="http://pb-mock.herokuapp.com"><img src="images/pbase.png" ></a> </td>
+			      <td>
+			        <ul>
+			          <li>Solo Project <span> -HTML/CSS/JS</span></li>
+			          <li>Tried to emulate the original website without using any tools such as bootstrap or sass.  Pure HTML, CSS, and javascript using a text editor.</li>
+			          <li>Check out the original site at propertybase.com</li>
+			        </ul>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td><a href="http://ralph-racer.herokuapp.com"><img src="images/ralph.png" ></a> </td>
+			      <td>
+			        <ul>
+			          <li>Solo Project <span> - OOJS</span></li>
+			          <li>"Frogger" type game where user helps Ralph cross the forest without getting hit by Felix</li>
+			          <li>Makes use of JqueryUI widgets</li>
+			        </ul>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td><a href="http://afterlife-game.herokuapp.com"><img src="images/afterlife.png" ></a> </td>
+			      <td>
+			        <ul>
+			          <li>First Place Hackathon <span> - JS & Ruby</span></li>
+			          <li>Simulation of humans running away from zombies during the apocolypse, eventually every human turns into a zombie</li>
+			          <li>Makes use of Ajax calls to update positions from Ruby backend logic</li>
+			        </ul>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td><a href="https://github.com/c14jcdj/topiary-server"><img src="images/topiary.png" ></a> </td>
+			      <td>
+			        <ul>
+			          <li>Solo Project <span> -Rails/MongoDB/Redis</span></li>
+			          <li>Simple word processor built on the Rails Framework utilizing both MongoDb and Redis.</li>
+			          <li>Uses Redis for fast chaching and uses MongoDb for persistence.</li>
+			          <li>This image links to my Github account for this project.</li>
+			        </ul>
+			      </td>
+			    </tr>
+			    <tr>
+			      <td><a href="http://glucose--amigo.herokuapp.com"><img src="images/glucose.png" ></a> </td>
+			      <td>
+			        <ul>
+			          <li>Group Project <span> - Ruby and JS(Rails App)</span></li>
+			          <li>Diabetic enters glucose levels; at weeks end the app generates a PDF of the data and sends to doctor</li>
+			          <li>Turned Rails app into a single page app that relies on Ajax calls to load partials of each view</li>
+			          <li>Makes use of HighCharts JS library for data visual representation</li>
+			        </ul>
+			      </td>
+			    </tr>
+			  </tbody>
+			</table>
+
+		</div>
+	</div>
+
 	<div class="parallaxbox" id="pb2" ></div>
 
-	<div class="parallaxbox" id="pb3" style="background-image: url('https://farm6.staticflickr.com/5053/14022377261_e90e0eac5c_b.jpg');"></div>
-
-
-	<div class="parallaxbox" id="pb4" style="background-image: url('https://farm4.staticflickr.com/3763/12273895274_9347eb5f1a_b.jpg');"></div>
 
 </body>
 </html>

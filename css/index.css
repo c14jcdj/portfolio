@@ -1,4 +1,8 @@
-/*div{
+body {
+    margin: 
+}
+
+#pb3 div{
     position:absolute;
     top:0;
     left:0;
@@ -6,21 +10,31 @@
     bottom:0;
 }
 
+#pb3 {
+    height: 1800px;
+}
+
 #background{
     z-index:1;
-    background:url('http://placehold.it/100x100&text=Background');
+    /*background:url('http://placehold.it/100x100&text=Background');*/
+    background:url('../images/seven.jpg');
+    background-size: 2000px 2000px;
+    height: 2000px;
+    background-repeat: no-repeat;
+    /*width: 150%;*/
+    margin-left: -50px
 }
 #middleground{
     z-index:2;
-    background:url('http://placehold.it/250x250&text=Middleground');
+    background:url('../images/six.jpg');
     opacity:.5;
 }
 #foreground{
     z-index:3;
-    background:url('http://placehold.it/350x350&text=Foreground');
-    opacity:.25;
+    /*background:url('http://placehold.it/350x350&text=Foreground');*/
+    opacity:.9;
 }
-*/
+
 
 body{
     position: absolute;
@@ -110,37 +124,35 @@ body{
           animation-timing-function: ease-out;
 }
 #navlist {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform:translateY(-50%);
-    border: 1px solid red;
     float: right;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 50px;
+    /*float: right;*/
 }
 #navlist div{
     float: left ;
     padding: 0 50px;
-    /*display: none;*/
-    margin-top: 40px;
+    display: none;
 
 }
 
-.display-inline {
-     display: inline !important;   
-    }
-
-#chewy {
-    border: 1px solid blue;
+.nav h1 {
     float: left;
     font-size: 3em;
-    margin-right: 150px;
 }
-.chewy1 {
-    /*font-family: 'IM Fell English SC', serif;*/
 
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav {
+    /*font-family: 'IM Fell English SC', serif;*/
     /*color:rgb(0,0,0);*/
     font-family: 'Rock Salt', cursive;
-    
+    overflow:hidden;
+    padding-left: 20px;
     position: absolute;
     left: 0;
     right: 0;
@@ -248,4 +260,595 @@ body{
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+}
+
+
+.projects {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+
+}
+
+table tr td {
+  border: solid 1px black;
+}
+table
+{
+width:80%;
+margin: 0 auto;
+}
+
+th {
+  height: 300px;
+}
+
+td
+{
+height:50px;
+padding: .5%;
+color: white;
+text-shadow: 2px 2px rgb(11,14,36);
+}
+
+
+
+thead th{
+
+  font-family: 'IM Fell English SC', serif;
+  color: rgb(11,14,36);
+  text-shadow:
+    -2px -2px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+  font-size: 4em;
+  text-align: center;
+
+}
+
+table tr td:nth-child(1) {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+}
+
+
+
+table tr td:nth-child(2) {
+  font-size: 1.4em;
+  line-height: 1.5;
+  border: none;
+  font-family: 'IM Fell English SC', serif;
+
+
+}
+
+
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 18px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 37px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+
+table tr td:nth-child(1) img {
+  width: 450px;
+  height: 250px;
+}
+
+table tr td:nth-child(1):hover {
+  border: solid 7px black;
+  background-color: #248FB2;
+}
+
+#f1, #f2 {
+  position: absolute;
+
+  margin-top: 220px;
+}
+
+#f1 img, #f2 img{
+width: 50px;
+  height: 50px;
+  }
+
+  #f1 {
+  margin-left: 300px;
+
+  }
+
+  #f2 {
+    margin-left: 900px;
+  }
+
+  #line {
+    position: absolute;
+    margin-top: 275px;
+
+    width: 80%;
+    margin-left: 10%;
+    border: 3px solid black;
+  }
+
+
+  #line2 {
+    position: absolute;
+    width: 84%;
+    margin-top: 290px;
+    border: 3px solid black;
+    margin-left: 8%;
+  }
+
+  span {
+    font-style: italic;
+    font-size: .7em;
+  }
+
+
+
+@media screen and (min-width: 1920px) {
+
+
+.header, .footer {
+  font-size: 5em;
+}
+
+
+.navlinks {
+  font-size: 1.5em;
+  left: 26%;
+  margin-top: -4%;
+  width: 63%;
+  height: 80px;
+  position: absolute;
+  border-top: 2px black solid;
+}
+
+#f1, #f2 {
+  margin-top: 230px;
+}
+
+
+#f1 {
+  margin-left: 600px;
+}
+
+#f2 {
+  margin-left: 1250px;
+}
+
+#line {
+  margin-top: 300px;
+}
+
+
+  #line2 {
+    margin-top: 315px;
+  }
+
+thead th{
+  font-size: 5em;
+}
+
+.footer {
+  font-size: 2em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 25px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 45px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+.navlinks {
+  border: none;
+}
+
+.strikethrough {
+  position: absolute;
+  border: solid 1px black;
+  width: 70%;
+  margin-left:15%;
+  margin-top: -4.7%;
+}
+
+}
+
+@media all and (max-width: 1919px) and (min-width: 1680px) {
+
+/*@media screen and (min-width: 1680px) {*/
+
+.header, .footer {
+  font-size: 5em;
+}
+
+
+.navlinks {
+  font-size: 1.5em;
+  left: 22%;
+  margin-top: -4.5%;
+  width: 63%;
+  height: 80px;
+  position: absolute;
+  border-top: 2px black solid;
+}
+
+#f1, #f2 {
+  margin-top: 230px;
+}
+
+
+#f1 {
+  margin-left: 450px;
+}
+
+#f2 {
+  margin-left: 1190px;
+}
+
+#line {
+  margin-top: 300px;
+}
+
+
+  #line2 {
+    margin-top: 315px;
+  }
+
+thead th{
+  font-size: 5em;
+}
+
+.footer {
+  font-size: 2em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 25px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 45px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+.navlinks {
+  border: none;
+}
+
+.strikethrough {
+  position: absolute;
+  border: solid 1px black;
+  width: 70%;
+  margin-left:15%;
+  margin-top: -4.7%;
+}
+
+}
+
+@media all and (max-width: 1679px) and (min-width: 1600px) {
+
+
+.header, .footer {
+  font-size: 10em;
+}
+
+
+.navlinks {
+  font-size: 1.3em;
+  left: 22%;
+  margin-top: -4.5%;
+  width: 63%;
+  height: 80px;
+  position: absolute;
+  border-top: 2px black solid;
+}
+
+#f1, #f2 {
+  margin-top: 230px;
+}
+
+
+#f1 {
+  margin-left: 450px;
+}
+
+#f2 {
+  margin-left: 1500px;
+}
+
+#line {
+  margin-top: 300px;
+}
+
+
+  #line2 {
+    margin-top: 315px;
+  }
+
+thead th{
+  font-size: 5em;
+}
+
+.footer {
+  font-size: 2em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 25px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 45px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+.navlinks {
+  border: none;
+}
+
+.strikethrough {
+  position: absolute;
+  border: solid 1px black;
+  width: 70%;
+  margin-left:15%;
+  margin-top: -4.7%;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+.header, .footer {
+  font-size: 4em;
+}
+
+
+.navlinks {
+  font-size: 1.3em;
+  left: 19%;
+  margin-top: -5%;
+  width: 63%;
+  height: 80px;
+  position: absolute;
+  border-top: 2px red solid;
+}
+
+#f1, #f2 {
+  margin-top: 220px;
+}
+
+
+#f1 {
+  margin-left: 350px;
+}
+
+#f2 {
+  margin-left: 1050px;
+}
+
+#line {
+  margin-top: 300px;
+}
+
+
+  #line2 {
+    margin-top: 315px;
+  }
+
+thead th{
+  font-size: 5em;
+}
+
+.footer {
+  font-size: 2em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 25px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 45px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+
+
+.navlinks {
+  border: none;
+}
+
+.intro_profile{
+  margin-top: 10%;
+}
+
+.strikethrough {
+  position: absolute;
+  border: solid 1px black;
+  width: 70%;
+  margin-left:15%;
+  margin-top: -4.7%;
+}
+
+}
+
+@media all and (max-width: 1599px) and (min-width: 1366px) {
+
+.header, .footer {
+  font-size: 4em;
+}
+
+
+.navlinks {
+  font-size: 1.2em;
+  left: 20%;
+  margin-top: -4.8%;
+  width: 75%;
+  height: 80px;
+  position: absolute;
+  border-top: 2px black solid;
+}
+
+#f1, #f2 {
+  margin-top: 220px;
+}
+
+
+#f1 {
+  margin-left: 300px;
+}
+
+#f2 {
+  margin-left: 1000px;
+}
+
+#line {
+  margin-top: 300px;
+}
+
+
+  #line2 {
+    margin-top: 315px;
+  }
+
+thead th{
+  font-size: 5em;
+}
+
+.footer {
+  font-size: 2em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 25px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 45px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+.navlinks {
+  border: none;
+}
+
+.intro_profile {
+  margin-top:9%;
+}
+
+.strikethrough {
+  position: absolute;
+  border: solid 1px black;
+  width: 67%;
+  margin-left:16%;
+  margin-top: -4.7%;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.header, .footer {
+  font-size: 3.5em;
+}
+
+
+.navlinks {
+  font-size: 1.2em;
+  left: 10%;
+  margin-top: -6.4%;
+  width: 75%;
+  height: 80px;
+  position: absolute;
+}
+
+#f1, #f2 {
+  margin-top: 190px;
+}
+
+
+#f1 {
+  margin-left: 250px;
+}
+
+#f2 {
+  margin-left: 715px;
+}
+
+#line {
+  margin-top: 275px;
+}
+
+
+  #line2 {
+    margin-top: 300px;
+  }
+
+thead th{
+  font-size: 4.2em;
+}
+
+.footer {
+  font-size: 1.5em;
+}
+
+table tr td:nth-child(2) ul {
+  list-style-type: square;
+  font-size: 18px;
+  font-family: 'Rufina', serif;
+
+}
+
+table tr td:nth-child(2) li:nth-child(1) {
+  font-weight: bold;
+  font-size: 25px;
+  list-style: none;
+  font-family: 'IM Fell English SC', serif;
+
 }
