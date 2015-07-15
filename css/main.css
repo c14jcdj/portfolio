@@ -519,3 +519,80 @@ main {
         page-break-after: avoid;
     }
 }
+
+@media (max-width:768px){
+    #slide-1 h1 .first {
+        font-size: 2.3em;
+    }
+    #slide-1 h1 .last {
+        font-size: 2.7em;
+    }
+
+    #slide-3 .bubble-two {
+        width: 460px;
+        height: 460px;
+        /*width: 540px;
+        height: 540px;*/
+    }
+
+    #slide-3 .bubble-one {
+        width: 420px;
+        height: 420px;
+        /*width: 500px;
+        height: 500px;*/
+    }
+
+    #slide-3 .bubble-one .info-1, #slide-3 .bubble-one .info-2{
+        font-size: 1.3em;
+        padding: 0 57px;
+    }
+
+    #slide-3 .bubble-one .info-2 h2 {
+        font-size: 35px;
+    }
+
+    #slide-3 .bubble-one .info-2 ul {
+        padding-left: 10px
+    }
+}
+@media (max-width:479px){
+    #slide-1 h1 .first {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    #slide-1 h1 .last {
+        font-size: 1.7em;
+    }
+
+    #about-me-target h2 {
+        font-size: 28px;
+    }
+
+    #slide-2 .bcg {
+        height: 200px;
+    }
+
+    #slide-3 .bubble-two {
+        width: 320px;
+        height: 500px;
+        border-radius: 0;
+        
+    }
+
+    #slide-3 .bubble-one {
+        width: 280px;
+        height: 460px;
+        border-radius: 0;
+        
+    }
+
+    #slide-3 .bubble-one .info-1 , #slide-3 .bubble-one .info-2{
+        font-size: 1.1em;
+        padding: 0 40px;
+    }
+
+
+}
+
+
+

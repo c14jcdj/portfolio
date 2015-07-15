@@ -167,7 +167,7 @@
 	}
 
 	bindModalConstructor()
-	hideName()
+	// hideName()
 	bindLinks()
 		
 } )( jQuery );
