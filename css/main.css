@@ -175,7 +175,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-image: url('../images/six.jpg'); position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 20%; left: 0; width: 100%; text-align: center;}
 .curtainContainer .copy img {width: 50%;}
-.copy .copy-content-container {width: 80%; position: relative;  margin: 0 auto; overflow:hidden;opacity:0}
+.copy .copy-content-container {width: 80%; position: relative;  margin: 0 auto; opacity:0}
 .copy-content-container .copy-content { position: relative; float: left; height: 200px; width: 49.5%;}
 #slide-4 .bcg {background-image:url('../images/seven.jpg')}
 #slide-4 .projects {position: relative; color:white; font-size: 10em; top: 20%; text-align: center;font-family: 'Codystar', cursive;;text-shadow:
@@ -256,7 +256,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-image: url('../images/six.jpg'); position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 20%; left: 0; width: 100%; text-align: center;}
 .curtainContainer .copy img {width: 50%;}
-#mobile-slide-4 .copy .copy-content-container {width: 100%; position: relative;  margin: 0 auto; overflow:hidden; opacity:1; text-align: center;}
+#mobile-slide-4 .copy .copy-content-container {width: 100%; position: relative;  margin: 0 auto;  opacity:1; text-align: center;}
 .copy-content-container .copy-content { position: relative; float: left; height: 200px; width: 49.5%;}
 #mobile-slide-4 .bcg {background-image:url('../images/seven.jpg')}
 #mobile-slide-4 .projects {position: relative; color:white; font-size: 10em; top: 20%; text-align: center;font-family: 'Codystar', cursive;;text-shadow:
