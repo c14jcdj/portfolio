@@ -295,7 +295,7 @@ main {
     top:40%;
 }
 
-#mobile-slide-4 h1 {position: relative; margin: 50px auto;color:white; font-size: 4em;  text-align: center;font-family: 'Codystar', cursive;text-shadow:
+#mobile-slide-4 h1 {position: relative; margin: 50px auto; padding-top: 50px;color:white; font-size: 4em;  text-align: center;font-family: 'Codystar', cursive;text-shadow:
     -3px -5px 0 rgb(47,113,157),  
     3px -5px 0 rgb(47,113,157),
     -1px 1px 0 black,
@@ -420,6 +420,10 @@ main {
     text-align: center;
     transform-translate: (-50%, -50%);
     -webkit-transform: translate(-50%,-50%); 
+}
+
+#mobile-slide-4 {
+    margin-top: -50px;
 }
 
 
@@ -697,7 +701,6 @@ main {
 
     #slide-4 .projects {
         font-size: 4em;
-        border: 1px solid red;
     }
 
     #slide-5 h2 {
@@ -750,7 +753,6 @@ main {
 
     #slide-4 .projects {
         font-size: 3em;
-        border: 1px solid black;
     }
 
     #slide-5 h2 {
