@@ -348,6 +348,10 @@ main {
     display: none;
 }
 
+.modal-content {
+    margin-top: 70px;
+}
+
 .floating{
     animation-name: floating;
     -webkit-animation-name: floating;
