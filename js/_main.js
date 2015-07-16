@@ -99,7 +99,7 @@
 				'title' : 'Next Guide',
 				'image' : 'nextguide.png',
 				'link' : 'https://nextguide.tv',
-				'stack' : ['bootstrap-logo.png',  'HTML5-logo.png', 'mysql.png', 'js.png','rails-logo.png'],
+				'stack' : ['bootstrap-logo.png',  'HTML5-Logo.png', 'mysql.png', 'js.png','rails-logo.png'],
 				'list' : ['Sole front end developer on this project', 'Implemented the redesign of the site from static to responsive' ,'Added a custom breakpoint for an optimal mobile experience']
 			},
 
@@ -107,7 +107,7 @@
 				'title' : 'Race It Ralph',
 				'image' : 'ralph.png',
 				'link': 'http://ralph-racer.herokuapp.com',
-				'stack' : [ 'CSS3.png', 'HTML5-logo.png', 'js.png'],
+				'stack' : [ 'CSS3.png', 'HTML5-Logo.png', 'js.png'],
 				'list' : ['Solo project: HTML canvas game', 'Implemented using Object Oriented JS','Made use of Jquery widgets']
 			},
 
@@ -115,7 +115,7 @@
 				'title' : 'Glucose Amigo',
 				'image' : 'glucose.png',
 				'link': 'http://glucose--amigo.herokuapp.com',
-				'stack' : [ 'CSS3.png', 'HTML5-logo.png', 'mysql.png', 'js.png','rails-logo.png'],
+				'stack' : [ 'CSS3.png', 'HTML5-Logo.png', 'mysql.png', 'js.png','rails-logo.png'],
 				'list' : [ 'Diabetic enters glucose levels; at weeks end the app generates a PDF of the data and sends to doctor','Makes use of HighCharts JS library for data visual representation', 'Turned Rails app into a single page app that relies on Ajax calls to load partials of each view']
 			},
 
@@ -123,21 +123,21 @@
 				'title' : 'Clorox Matchmaker',
 				'image' : 'bach.jpg',
 				'link': 'javascript:void(0)',
-				'stack' : [ 'bootstrap-logo.png','angular.jpeg', 'HTML5-logo.png', 'mysql.png', 'js.png','rails-logo.png'],
+				'stack' : [ 'bootstrap-logo.png','angular.jpeg', 'HTML5-Logo.png', 'mysql.png', 'js.png','rails-logo.png'],
 				'list' : [ 'Sole front end developer', 'HTML view rendered in app container', 'To View: download Viggle app, search for show \'The Bachelorette\', click on play \'Clorox Matchmaker\'']
 			},
 			'afterlife' : {
 				'title' : 'The Game of After Life',
 				'image' : 'afterlife.png',
 				'link': 'http://afterlife-game.herokuapp.com',
-				'stack' : [ 'HTML5-logo.png', 'js.png', 'CSS3.png', 'rails-logo.png'],
+				'stack' : [ 'HTML5-Logo.png', 'js.png', 'CSS3.png', 'rails-logo.png'],
 				'list' : [ 'First Place Hackathon', 'Simulation of humans running away from zombies during the apocolypse, eventually every human turns into a zombie', 'Makes use of Ajax calls to update positions from Ruby backend logic']
 			},
 			'wedding' : {
 				'title' : 'Wedding App',
 				'image' : 'wedding.png',
 				'link': 'http://benandnicole620.herokuapp.com',
-				'stack' : [ 'HTML5-logo.png', 'js.png', 'bootstrap-logo.png','CSS3.png', 'rails-logo.png'],
+				'stack' : [ 'HTML5-Logo.png', 'js.png', 'bootstrap-logo.png','CSS3.png', 'rails-logo.png'],
 				'list' : [ 'Sole developer for entire application: responsive', 'Allows wedding guests to RSVP and make food choice', 'Admin tool built in to interact with database']
 			}
 		}
